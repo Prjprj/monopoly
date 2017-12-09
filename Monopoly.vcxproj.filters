@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="affichage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="alloc dyna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Consolenew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LOLOLIB.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MONOANIM.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MONOBYE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MONOCASE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Monocie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monoechange.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Monogare.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MONOINIT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monomaison.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MONOMENU.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monopoly.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monopolylib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monoprison.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Monoprop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MONOSPEC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MONOWIN.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauvegarde.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="affichage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="alloc dyna.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BIBLIO.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="consolenew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LOLOLIB.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MONOANIM.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MONOBYE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MONOCASE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Monocie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monoconst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monoechange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Monogare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MONOINIT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monomaison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MONOMENU.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monopolylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monoprison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Monoprop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MONOSPEC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monotypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MONOWIN.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RESOURCE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sauvegarde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Varglob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ICONE.RC">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
