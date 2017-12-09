@@ -1,0 +1,634 @@
+Structure des propriétés
+
+BALISE
+NOM
+PRIX DU TERRAIN
+LOYER TERRAIN NU
+LOYER AVEC 1 MAISON
+LOYER AVEC 2 MAISON
+LOYER AVEC 3 MAISON
+LOYER AVEC 4 MAISON
+LOYER AVEC HOTEL
+PRIX D'UNE MAISON
+PRIX D'UN HOTEL
+HYPOTHEQUE
+COULEUR
+
+Type PLATEAU
+0 Depart
+1 Terrain
+2 Gare
+3 Compagnie
+4 Chance
+5 Communaute
+6 Impot
+7 Prison
+8 Rien
+
+plateau
+0
+1
+5
+1
+6
+2
+1
+4
+1
+1
+8
+1
+3
+1
+1
+2
+1
+5
+1
+1
+8
+1
+4
+1
+1
+2
+1
+1
+3
+1
+7
+1
+1
+5
+1
+2
+4
+1
+6
+1
+
+
+prop00
+Boulevard de Belleville
+6000
+200
+1000
+3000
+9000
+16000
+25000
+5000
+5000
+3000
+0
+0
+
+prop01
+Rue Lecourbe
+6000
+400
+2000
+6000
+18000
+32000
+45000
+5000
+5000
+3000
+0
+0
+
+prop02
+Rue de Vaugirard
+10000
+600
+3000
+9000
+27000
+40000
+55000
+5000
+5000
+5000
+1
+0
+
+prop03
+Rue de Courcelles
+10000
+600
+3000
+9000
+27000
+40000
+55000
+5000
+5000
+5000
+1
+0
+
+prop04
+Avenue de la Republique
+12000
+800
+4000
+10000
+30000
+45000
+60000
+5000
+5000
+6000
+1
+0
+
+prop05
+Boulevard de la Villette
+14000
+1000
+5000
+15000
+45000
+62500
+75000
+10000
+10000
+7000
+2
+0
+
+prop06
+Avenue de Neuilly
+14000
+1000
+5000
+15000
+45000
+62500
+75000
+10000
+10000
+7000
+2
+0
+
+prop07
+Rue de Paradis
+16000
+1200
+6000
+18000
+50000
+70000
+90000
+10000
+10000
+8000
+2
+0
+
+prop08
+Avenue Mozart
+18000
+1400
+7000
+20000
+55000
+75000
+95000
+10000
+10000
+9000
+3
+0
+
+prop09
+Boulevard Saint-Michel
+18000
+1400
+7000
+20000
+55000
+75000
+95000
+10000
+10000
+9000
+3
+0
+
+prop10
+Place Pigalle
+20000
+1600
+8000
+22000
+60000
+80000
+100000
+10000
+10000
+10000
+3
+0
+
+prop11
+Avenue Matignon
+22000
+1800
+9000
+25000
+70000
+87500
+105000
+15000
+15000
+11000
+4
+0
+
+prop12
+Boulevard Malesherbes
+22000
+1800
+9000
+25000
+70000
+87500
+105000
+15000
+15000
+11000
+4
+0
+
+prop13
+Avenue Henri-Martin
+24000
+2000
+10000
+30000
+75000
+92500
+110000
+15000
+15000
+12000
+4
+0
+
+prop14
+Faubourg Saint-Honore
+26000
+2200
+11000
+33000
+80000
+97500
+115000
+15000
+15000
+13000
+5
+0
+
+prop15
+Place de la Bourse
+26000
+2200
+11000
+33000
+80000
+97500
+11500
+15000
+15000
+13000
+5
+0
+
+prop16
+Rue la Fayette
+28000
+2400
+12000
+36000
+85000
+102500
+120000
+15000
+15000
+14000
+5
+0
+
+prop17
+Avenue de Breteuil
+30000
+2600
+13000
+39000
+90000
+110000
+127500
+20000
+20000
+15000
+6
+0
+
+prop18
+Avenue Foch
+30000
+2600
+13000
+39000
+90000
+110000
+127500
+20000
+20000
+15000
+6
+0
+
+prop19
+Boulevard des Capucines
+32000
+2800
+15000
+45000
+100000
+120000
+140000
+20000
+20000
+16000
+6
+0
+
+prop20
+Avenue des Champs-Elysees
+35000
+3500
+17500
+50000
+110000
+130000
+150000
+20000
+20000
+17500
+7
+0
+
+prop21
+Rue de la Paix
+40000
+5000
+20000
+60000
+140000
+170000
+200000
+20000
+20000
+20000
+7
+0
+
+*gare*
+Gare Montparnasse
+
+Gare de Lyon
+
+Gare du Nord
+
+Gare Saint-Lazare
+20000
+2500
+5000
+10000
+20000
+10000
+
+*compagnie*
+Compagnie des Eaux
+
+Compagnie de l'Electricite
+15000
+400
+1000
+7500
+
+*caisse*
+Vous heritez 10000E
+0
+10000
+0
+Chaque joueur doit vous donner 1000E
+5
+1000
+0
+On vous remboursent la somme de 2000E
+0
+2000
+0
+La vente de votre stock vous rapporte 5000E
+0
+5000
+0
+Placez vous sur la case Depart
+4
+0
+1
+Recevez votre revenu annuel 10000E
+0
+10000
+0
+Vous avez gagné un prix. Recevez 1000E
+0
+1000
+0
+Recevez votre interet sur un emprunt 2500E
+0
+2500
+0
+Retournez a Belleville
+4
+1
+0
+Payez a l'hopital 10000E
+0
+10000
+0
+Erreur de la banque, Recevez 20000E
+0
+20000
+0
+Payez votre Assurance s'elevant a 5000E
+1
+5000
+0
+Payez la note du Medecin 5000E
+1
+5000
+0
+
+
+
+9 PRISON-
+Allez en prison. Avancez tout droit en prison. Ne passez pas par la case de Départ. Ne recevez pas 20000E
+
+13 -1000 OU !CHANCE
+Payer une amende de 1000E ou bien tirez une carte CHANCE
+
+16 PRISON+
+Vous etes libere de prison. Cette carte peut etre conservé jusqu'a ce qu'elle soit utilisée ou vendue
+
+*chance*
+Vos investissements. Vous devez toucher 15000E
+0
+15000
+0
+Payez pour frais de scolarite 15000E
+1
+15000
+0
+Rendez vous a la Rue de la Paix
+4
+39
+1
+Amende pour ivresse: 2000E
+1
+2000
+0
+RDVAve Henri-Martin
+4
+24
+1
+La banque vous verse un dividende de 5000E
+0
+5000
+0
+Allez a la Gare de Lyon
+4
+15
+1
+Vous avez un prix. Recevez 10000E
+0
+10000
+0
+RDV Bld de la Vilette
+4
+11
+0
+Reculez de trois cases
+3
+3
+0
+Amende pour exces de vitesse : 1500E
+1
+1500
+0
+Avancez jusqu'a la Case de Depart
+4
+0
+1
+
+
+
+
+1 PRISON+
+Vous etes libere de prison. Cette carte peut etre conservé jusqu'a ce qu'elle soit utilisée ou vendue
+
+
+5 -2500*maisons ET -10000*HOTEL
+Faites des réparations Dans toutes vos maisons. Versez pour chaque maison 2500E.Versez pour chaque hotel 10000E
+
+10 PRISON-
+Allez en prison. Avancez tout droit en prison. Ne passez pas par la case de Départ. Ne recevez pas 20000E
+
+16 -4000*maisons ET -11500*HOTEL
+Vous etes impose pour les repararions de voirie a raison de : 4000e par maison et 11500 par hotel
+
+menuachat
+2
+60
+17
+68
+75
+65
+non
+ oui
+
+*menutour*
+7
+57
+8
+68
+75
+65
+Lancer de
+ Voir possession
+ Achat/Vente Maison
+ Vente possession
+ Se retirer du jeu
+ Sauvegarder
+ Quitter
+
+*menuechange*
+4
+4
+4
+68
+75
+65
+Fin
+ Propriete
+ Gare
+ Compagnie
+
+*menumaison*
+3
+50
+15
+68
+75
+65
+Fin
+ Achat
+ Vente
+
+*menudebut*
+2
+27
+17
+68
+75
+65
+Commencer une partie
+ Charger une partie
+
+*menunbjoujou*
+7
+72
+5
+78
+75
+65
+2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+
+*menunbjoueur*
+
+
+
+fin
+

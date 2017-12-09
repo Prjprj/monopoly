@@ -1,0 +1,2 @@
+Ce programme est notre tentative de porter sur ordinateur le célèbre jeu Monopoly, la façon de jouer est très simple, il suffit de suivre les instructions affichées à l'écran et de ne pas entrer des valeurs fantaisistes lorsqu'on vous demande d'entrer une valeur.
+Pour le lancement des dés, vous voyez défiler les valeurs que prend le dé, il vous suffit d'appuyer sur une touche pour l'arrêter et passer au dé suivant ou à la suite du jeu.

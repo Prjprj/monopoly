@@ -1,0 +1,1 @@
+void casespecial(Joueur*,card*,int*,listeJoueur*);

@@ -1,0 +1,1 @@
+Pour pouvoir jouer au monopoly revisité par notre groupe, il vous suffit de copier Monopoly.exe et Monopoly.dat sur votre disque dur, si Monopoly.dat n'est pas dans le même répertoire que Monopoly.exe, le programme ne pourra pas fonctionner et aura un plantage.
