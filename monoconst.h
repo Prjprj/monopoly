@@ -1,22 +1,22 @@
 /************************************
-*                                   *
-*                                   *
-*                                   *
-*            monoconst.h            *
-*        Créé pour le projet        *
-*            Monopoly               *
-*                                   *
-*                                   *
-*    Pierre Ramos                   *
-*    Laurent Nguyen                 *
-*    Azouaou Sardou                 *
-*                                   *
-*                                   *
-*                                   *
-*                                   *
-*                                   *
-*                                   *
-************************************/
+ *                                   *
+ *                                   *
+ *                                   *
+ *            monoconst.h            *
+ *        Créé pour le projet        *
+ *            Monopoly               *
+ *                                   *
+ *                                   *
+ *    Pierre Ramos                   *
+ *    Laurent Nguyen                 *
+ *    Azouaou Sardou                 *
+ *                                   *
+ *                                   *
+ *                                   *
+ *                                   *
+ *                                   *
+ *                                   *
+ ************************************/
 #define PI 3.14159265
 /*Constantes spécifiques au jeu*/
 #define NBCASESPLATEAU 40
