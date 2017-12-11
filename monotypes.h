@@ -19,7 +19,7 @@
  ************************************/
 #ifndef monotypes
 #define monotypes
-	#include "biblio.h"
+	#include "monoconst.h"
 	typedef struct {
 		char chaine[10][LONGNOMMAX];
 		int taille;
@@ -52,11 +52,11 @@
 		int gare;
 		int compagnie;
 	} avoir;
-	typedef struct case_ {
+	typedef struct Case_ {
 		int numero;
 		attribut type;
 		int place;
-		struct case_ *suivant;
+		struct Case_ *suivant;
 	} Case_;
 	typedef Case_ *plateau;
 	typedef struct joueur {

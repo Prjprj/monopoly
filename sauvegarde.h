@@ -21,7 +21,7 @@
 
 #ifndef Sauvegarde
 #define Sauvegarde
-	#include "biblio.h"
+	#include "monotypes.h"
 	void sauvegarde(Joueur*);
 	int chargement(void);
 #endif

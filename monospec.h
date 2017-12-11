@@ -1,5 +1,5 @@
 #ifndef MONOSPEC
 #define MONOSPEC
-	#include "biblio.h"
+	#include "monotypes.h"
 	void casespecial(Joueur*, card*, int*, listeJoueur*);
 #endif

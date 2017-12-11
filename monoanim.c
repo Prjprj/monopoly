@@ -1,4 +1,10 @@
-#include "biblio.h"
+//#include "biblio.h"
+
+#include<windows.h>
+#include "monoconst.h"
+#include "monotypes.h"
+#include "Varglob.h"
+#include "lololib.h"
 
 void lignelettre0(char c[1], int x, int y, int longueur, WORD couleur,
 		booleen paf) {
@@ -589,6 +595,13 @@ void affiche_nom_joli(char nom[50], int x, int y, booleen paf) {
 
 	}
 }
+void cadre(char c[3], int x, int y, int L, int l, WORD couleur) {
+	lignelettre1(c, x, y, L, couleur, faux);
+	lignelettre1(c, x, y + l - 1, L, couleur, faux);
+	colonnelettre1(c, x, y, l, couleur, faux);
+	colonnelettre1(c, x + L - 1, y, l, couleur, faux);
+}
+
 void animIntro(void) {
 	int x = 15, y = 0;
 
@@ -738,13 +751,6 @@ void initpaysp(void) {
 
 }
 
-void cadre(char c[3], int x, int y, int L, int l, WORD couleur) {
-	lignelettre1(c, x, y, L, couleur, faux);
-	lignelettre1(c, x, y + l - 1, L, couleur, faux);
-	colonnelettre1(c, x, y, l, couleur, faux);
-	colonnelettre1(c, x + L - 1, y, l, couleur, faux);
-}
-
 void Dessintrain(int x, int y) {
 	lignelettre1(" ", x, y + 4, 6, BVERT, faux);
 	lignelettre1(" ", x, y + 3, 5, BVERT, faux);
@@ -767,17 +773,6 @@ void Dessinpanneau(void) {
 	lignelettre1(" ", 32, 9, 1, BGRIS, faux);
 
 }
-void Animejoueur(void) {
-	int a;
-
-	for (a = -5; a <= 15; a++) {
-		box(BBLEUC, 0, 0, 30, 9);
-		Dessinpion(a, 9);
-
-		sleep(0.07);
-	}
-
-}
 void Dessinpion(int x, int y) {
 
 	lignelettre1(" ", x + 1, y, 1, BNOIR, faux);
@@ -789,6 +784,17 @@ void Dessinpion(int x, int y) {
 
 }
 
+void Animejoueur(void) {
+	int a;
+
+	for (a = -5; a <= 15; a++) {
+		box(BBLEUC, 0, 0, 30, 9);
+		Dessinpion(a, 9);
+
+		sleep(0.07);
+	}
+
+}
 void innPropriete(void) {
 
 	cls();
@@ -804,17 +810,6 @@ void innPropriete(void) {
 	affiche_nom("PROP", 47, 3, BNOIR, faux);
 
 }
-void innGare(void) {
-	initpaysp();
-	cadre("*", 0, 12, 80, 13, BGRIS | BBLANC);
-	box(BGRIS, 31, 1, 24, 8);
-	Animejoueur();
-
-	box(BGRIS, 31, 1, 24, 8);
-	sleep(.5);
-	Animetrain();
-}
-
 void Animetrain(void) {
 	int a;
 
@@ -831,34 +826,23 @@ void Animetrain(void) {
 
 }
 
+void innGare(void) {
+	initpaysp();
+	cadre("*", 0, 12, 80, 13, BGRIS | BBLANC);
+	box(BGRIS, 31, 1, 24, 8);
+	Animejoueur();
+
+	box(BGRIS, 31, 1, 24, 8);
+	sleep(.5);
+	Animetrain();
+}
+
 void innComp(void) {
 	initpaysp();
 	cadre("*", 0, 12, 80, 13, BROUGE | FBLANC);
 	box(BBLANC, 31, 1, 24, 8);
 	affiche_nom("CIE", 35, 3, FNOIR | BGRIS, faux);
 	Animejoueur();
-}
-
-void innVisiteprison(void) {
-	initpaysg();
-
-	Dessinprison();
-	Animegeantjoueur1();
-	sleep(.25);
-	locate("VISITE", 40, 19);
-	sleep(.25);
-	Traversejoueurprison2();
-
-}
-void Animegeantjoueur1(void) {
-	int a;
-
-	for (a = -5; a <= 15; a++) {
-		box(BBLEUC, 0, 0, 25, 23);
-		Dessinpion(a, 23);
-
-		sleep(0.07);
-	}
 }
 
 void dessinBarreaux(int x, int y) {
@@ -869,6 +853,19 @@ void dessinBarreaux(int x, int y) {
 	colonnelettre1(" ", x + 2, y, 5, BNOIR, faux);
 	colonnelettre1(" ", x + 4, y, 5, BNOIR, faux);
 	colonnelettre1(" ", x + 6, y, 5, BNOIR, faux);
+
+}
+
+void Dessinprison(void) {
+	box(BGRIS, 31, 0, 24, 23);
+	dessinBarreaux(34, 3);
+	dessinBarreaux(46, 3);
+	dessinBarreaux(34, 13);
+	dessinBarreaux(46, 13);
+	dessinBarreaux(34, 13);
+	dessinBarreaux(46, 13);
+
+	locate("PRISON", 40, 1);
 
 }
 
@@ -886,19 +883,28 @@ void Traversejoueurprison2(void) {
 
 }
 
-void Dessinprison(void) {
-	box(BGRIS, 31, 0, 24, 23);
-	dessinBarreaux(34, 3);
-	dessinBarreaux(46, 3);
-	dessinBarreaux(34, 13);
-	dessinBarreaux(46, 13);
-	dessinBarreaux(34, 13);
-	dessinBarreaux(46, 13);
+void Animegeantjoueur1(void) {
+	int a;
 
-	locate("PRISON", 40, 1);
+	for (a = -5; a <= 15; a++) {
+		box(BBLEUC, 0, 0, 25, 23);
+		Dessinpion(a, 23);
 
+		sleep(0.07);
+	}
 }
 
+void innVisiteprison(void) {
+	initpaysg();
+
+	Dessinprison();
+	Animegeantjoueur1();
+	sleep(.25);
+	locate("VISITE", 40, 19);
+	sleep(.25);
+	Traversejoueurprison2();
+
+}
 void Dessinjoueurinprison(void) {
 	box(BGRIS, 31, 0, 24, 23);
 	dessinBarreaux(34, 3);
@@ -911,18 +917,6 @@ void Dessinjoueurinprison(void) {
 	locate("PRISON", 40, 1);
 	Dessinpion(35, 17);
 	dessinBarreaux(34, 13);
-}
-
-void innPrison(void) {
-	initpaysg();
-	Dessinprison();
-	Animegeantjoueur1();
-	sleep(.25);
-	box(BNOIR, 40, 19, 5, 4);
-	locate("EN PRISON!!!", 40, 18);
-	sleep(.25);
-	Traversejoueurprison1();
-
 }
 
 void Traversejoueurprison1(void) {
@@ -954,6 +948,19 @@ void Traversejoueurprison1(void) {
 
 	Dessinjoueurinprison();
 }
+
+void innPrison(void) {
+	initpaysg();
+	Dessinprison();
+	Animegeantjoueur1();
+	sleep(.25);
+	box(BNOIR, 40, 19, 5, 4);
+	locate("EN PRISON!!!", 40, 18);
+	sleep(.25);
+	Traversejoueurprison1();
+
+}
+
 void outjoueurprison(void) {
 	int a;
 

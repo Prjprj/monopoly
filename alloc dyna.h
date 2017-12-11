@@ -20,7 +20,7 @@
  ************************************/
 #ifndef Alloc
 #define Alloc
-	#include "biblio.h"
+	//#include "biblio.h"
 	void alloc(int);
 	void freememoire(void);
 #endif

@@ -1,6 +1,7 @@
 #ifndef lololib
 #define lololib
-	#include "biblio.h"
+	#include<windows.h>
+	#include "monotypes.h"
 	void initprgm(void);
 	void cls(void);
 	void colorscreen(WORD);

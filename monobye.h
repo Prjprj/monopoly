@@ -1,6 +1,6 @@
 
 #ifndef MONOBYE
 #define MONOBYE
-	#include "biblio.h"
+	#include "monotypes.h"
 	Joueur* byebye(Joueur*);
 #endif

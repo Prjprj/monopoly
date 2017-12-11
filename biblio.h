@@ -1,3 +1,4 @@
+
 /************************************
  *                                   *
  *                                   *
@@ -33,9 +34,9 @@
 #define OURLIB
 	#include "monoconst.h"
 	#include "monotypes.h"
+	#include "varglob.h"
 	#include "lololib.h"
 	#include "monopolylib.h"
-	#include "varglob.h"
 	#include "consolenew.h"
 	#include "sauvegarde.h"
 	#include "alloc dyna.h"

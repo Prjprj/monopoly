@@ -19,7 +19,10 @@
  ************************************/
 #ifndef Varglob
 #define Varglob
-	#include "biblio.h"
+	#include<stdio.h>
+	#include<windows.h>
+	#include "monotypes.h"
+	#include "monoconst.h"
 	int nombrejoueur;
 	int tableau[NBCASESPLATEAU];
 	Case_ casedepart;

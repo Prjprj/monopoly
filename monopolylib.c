@@ -1,4 +1,12 @@
-#include "biblio.h"
+//#include "biblio.h"
+
+#include<windows.h>
+#include "monoconst.h"
+#include "monotypes.h"
+#include "monopolylib.h"
+#include "affichage.h"
+#include "monoanim.h"
+
 /*void initplayer(void)
  {
  int i;

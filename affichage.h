@@ -20,7 +20,8 @@
  ************************************/
 #ifndef Affichage
 #define Affichage
-	#include "biblio.h"
+	#include "monotypes.h"
+	#include<windows.h>
 	void couleur(void);
 	void affichMaisonHotels(void);
 	void affichPositionJoueurCourant(int);

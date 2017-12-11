@@ -1,4 +1,12 @@
-#include "biblio.h"
+//#include "biblio.h"
+
+#include<windows.h>
+
+#include "monoanim.h"
+#include "monobye.h"
+#include "monoconst.h"
+#include "monotypes.h"
+#include "monopolylib.h"
 
 int caseprison(Joueur *slayer, int *dede) {
 	menu choice;

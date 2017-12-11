@@ -1,4 +1,9 @@
-#include"biblio.h"
+//#include"biblio.h"
+
+#include "monotypes.h"
+#include "monoconst.h"
+#include "Varglob.h"
+
 void initplateau(char fich[20], Case_ *premiereCase, propriete *tabprop,
 		station *tabstat, compagnies *tabcom) {
 	int i;
@@ -8,7 +13,7 @@ void initplateau(char fich[20], Case_ *premiereCase, propriete *tabprop,
 	int cie = 0;
 	casecourante = premiereCase;
 	for (i = 0; i < NBCASESPLATEAU - 1; i++) {
-		casecourante->suivant = (case_*) malloc(sizeof(struct case_));
+		casecourante->suivant = (Case_*) malloc(sizeof(struct Case_));
 		casecourante->numero = i;
 		casecourante = casecourante->suivant;
 	}

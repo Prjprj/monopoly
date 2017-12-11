@@ -1,6 +1,7 @@
 #ifndef MONOANIM
 #define MONOANIM
-	#include "biblio.h"
+	#include "monotypes.h"
+	#include<windows.h>
 	void lignelettre0(char[1], int, int, int, WORD, booleen);
 	void lignelettre1(char[1], int, int, int, WORD, booleen);
 	void colonnelettre0(char[1], int, int, int, WORD, booleen);

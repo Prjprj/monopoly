@@ -1,4 +1,10 @@
-#include "biblio.h"
+//#include "biblio.h"
+#include<windows.h>
+#include<time.h>
+
+#include "monotypes.h"
+#include "Varglob.h"
+#include "monoanim.h"
 
 void initprgm(void) {
 	time_t t1;

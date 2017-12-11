@@ -1,6 +1,6 @@
 #ifndef MONOGARE
 #define MONOGARE
-	#include "biblio.h"
+	#include "monotypes.h"
 	booleen achatgare(Joueur*, station*);
 	void acquisgare(Joueur*, station*);
 	void pertegare(Joueur*, station*);

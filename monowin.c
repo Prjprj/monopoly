@@ -1,4 +1,11 @@
-#include "biblio.h"
+#include<conio.h>
+#include<windows.h>
+#include "monoconst.h"
+#include "monotypes.h"
+#include "lololib.h"
+#include "affichage.h"
+#include "monoanim.h"
+#include "Varglob.h"
 
 void winner(void) {
 	colorscreen(BNOIR | FGRIS);

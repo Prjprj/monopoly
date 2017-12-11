@@ -20,7 +20,7 @@
  ************************************/
 #ifndef Consolenew
 #define Consolenew
-	#include "biblio.h"
+	//#include "biblio.h"
 	void effacerEcran(HANDLE);
 	void changerCouleur(WORD);
 	void effacerPartieEcranMono(int);

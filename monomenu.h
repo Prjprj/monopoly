@@ -1,6 +1,6 @@
 #ifndef MONOMENU
 #define MONOMENU
-	#include "biblio.h"
+	#include "monotypes.h"
 	int menutour(Joueur *, listeJoueur *, propriete *, int *, station *,
 			compagnies *, int *);
 	void voirpossession(Joueur *, propriete *, int *, station *, compagnies *);

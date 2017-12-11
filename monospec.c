@@ -1,4 +1,13 @@
-#include"biblio.h"
+//#include"biblio.h"
+
+#include<windows.h>
+#include "monoconst.h"
+#include "monotypes.h"
+#include "Varglob.h"
+#include "lololib.h"
+#include "monobye.h"
+#include "monopolylib.h"
+
 void casespecial(Joueur *slayer, card *tab, int *play, listeJoueur *stuch) {
 	int i;
 	stich moi;

@@ -17,7 +17,15 @@
  *                                   *
  *                                   *
  ************************************/
-#include"biblio.h"
+//#include "biblio.h"
+
+#include "monoconst.h"
+#include "monotypes.h"
+#include "Varglob.h"
+#include<windows.h>
+#include<stdio.h>
+#include "monoanim.h"
+
 /*Fonction permettant de déplacer le curseur à l'endroit désiré de l'écran*/
 void placeCurseur(int x, int y) {
 	COORD coord;

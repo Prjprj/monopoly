@@ -1,6 +1,6 @@
 #ifndef MONOPOLYLIB
 #define MONOPOLYLIB
-	#include "biblio.h"
+	#include "monotypes.h"
 	booleen testliquidite(Joueur*, int);
 	void retraitargent(Joueur*, int);
 	void gainargent(Joueur*, int);

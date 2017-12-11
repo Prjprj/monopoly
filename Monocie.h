@@ -1,6 +1,6 @@
 #ifndef MONOCIE
 #define MONOCIE
-	#include "biblio.h"
+	#include "monotypes.h"
 	booleen achatcomp(Joueur*, compagnies*);
 	void acquiscomp(Joueur*, compagnies*);
 	void pertecomp(Joueur*, compagnies*);

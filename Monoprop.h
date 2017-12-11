@@ -1,6 +1,6 @@
 #ifndef MONOPROP
 #define MONOPROP
-	#include "biblio.h"
+	#include "monotypes.h"
 	booleen achatpropriete(Joueur*, propriete*);
 	booleen casepropriete(Joueur*, propriete*, int*);
 	void acquisprop(Joueur*, propriete*);
